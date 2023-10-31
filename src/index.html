@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retiro Verão - TX</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <img src="./images/arrocha_eterna.jpg" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="#" alt="Capa">
+            <P class="hero__text">
+                O maior evento de Tecnologia do Brasil começa em <span id="contador"></span>
+            </P>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo 
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 200,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/12/2022 às 19hrs
+                    </li>
+                </ul>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2ciBtR1d1YHCSLX8nIIGlHQcmT-y5rQPJIrGMpyWI6shB1Q/viewform " class="button button--primary">
+                    Garanta sua vaga
+                </a>                
+            </div>
+        </div>
+    </header>
 
     <script src="./scripts/main.js"></script>
 </body>
