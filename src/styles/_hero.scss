@@ -1,4 +1,4 @@
-@use './variables';
+
 
 .hero {
     padding-top: 64px;
@@ -6,6 +6,7 @@
     background-image: url(../images/img_capa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0cap;
     position: relative;
 
     .container {
@@ -34,7 +35,7 @@
 
     &__logo {
         margin: 0 auto;
-        height: 80px;
+        height: 150px;
         display: block;
     }
 
